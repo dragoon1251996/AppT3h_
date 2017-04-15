@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:paddingTop="2dp"
+    android:layout_height="75dp">
+<ImageView
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:src="@drawable/ic_avatar_mini"
+    android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0d0707"
+            android:text="Name"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/gmail"
+                android:paddingTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="top"
+                android:textSize="10sp"
+                android:textStyle="italic"
+                android:textColor="#565555"
+                android:text="Vuonguet@gmail.com"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
