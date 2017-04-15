@@ -17,7 +17,7 @@ public class UpdateMarker extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        ThreadUpdateMarker  threadUpdateMarker=new ThreadUpdateMarker(this);;
+        ThreadUpdateMarker  threadUpdateMarker=new ThreadUpdateMarker(this);
         threadUpdateMarker.execute();
         return START_STICKY;
     }

@@ -40,7 +40,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
+    int i=0;
     public static int numberOfGroup=0;
     DrawerLayout drawerLayout;
     RelativeLayout drawerPane;
@@ -123,7 +123,7 @@ private PendingIntent mAlarmIntent0;
         listFragments.add(new Notifi());
         listFragments.add(new Load());
         listFragments.add(new GroupChose());
-        if( this.numberOfGroup==0){
+        if( numberOfGroup==0){
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.main_content, listFragments.get(6)).commit();

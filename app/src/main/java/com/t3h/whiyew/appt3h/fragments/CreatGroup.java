@@ -37,7 +37,6 @@ public class CreatGroup extends Fragment {
     Button Creat;
     EditText Name, Access, Language;
     ProgressDialog progress;
-    ;
     ProgressBar bar;
     RelativeLayout relativeLayout;
     @Override
