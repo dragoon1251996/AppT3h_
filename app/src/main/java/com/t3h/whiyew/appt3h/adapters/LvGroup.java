@@ -18,6 +18,7 @@ import java.util.List;
 
 public class LvGroup extends ArrayAdapter<Group> {
     Context context;
+    int i=0;
     int resLayout;
     List<Group> listNavItems;
 
